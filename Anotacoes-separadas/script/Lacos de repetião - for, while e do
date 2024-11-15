@@ -1,0 +1,51 @@
+
+        //Laços de repetição for, while e do
+
+//um laço de repetiçãio é para executar uma
+//mesma função várias vezes
+
+
+var n = 0;
+while(n < 10){
+    console.log(n);
+    n++
+}
+
+
+for (var i = 0; i < 10; i++){
+
+console.log(i);
+}
+
+
+
+var n = 0;
+do{
+    console.log(n);
+    n++;
+}while(n < 10)
+
+
+        //ForEach - outro laço de repetição
+
+//servem pra interagir num array, ou em objetos
+
+
+var arr = ['guilerme', 'felipe', 'joao'];
+
+
+for ( var i = 0; i < arr.length; i++ ){
+    console.log(arr[i])
+
+}
+
+
+
+arr.forEach(function(value,index){
+console.log(value,index)
+})
+
+
+// Value, valor do array
+// O index é a chave, é aquele número que começa do 0
+//guilherme teria a chave 0, felipe teria a chave 1 e joao teria a chave 2
