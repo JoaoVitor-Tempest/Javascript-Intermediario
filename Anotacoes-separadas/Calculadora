@@ -1,0 +1,29 @@
+var numeroFinal = prompt('informe o numero final');
+
+//parseInt
+
+//funções para converter um número para string
+numeroInicial = parseInt(numeroInicial);
+numeroFinal = parseInt(numeroFinal)
+// se não executar esse comando, o texto será uma string
+//ele chama a variavel e converte pra numero
+
+var resultadoFinal = 0;
+
+if(sinal == '+'){
+    resultadoFinal = numeroInicial + numeroFinal
+}else if(sinal == '-'){
+
+    resultadoFinal = numeroInicial - numeroFinal
+
+
+}else if(sinal == '/'){
+    resultadoFinal = numeroInicial / numeroFinal
+
+
+}else if(sinal == '*'){
+    resultadoFinal = numeroInicial * numeroFinal
+20}
+
+
+alert('resultado é '+resultadoFinal);
