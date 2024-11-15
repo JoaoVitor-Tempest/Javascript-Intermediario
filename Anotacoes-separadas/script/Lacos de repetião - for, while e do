@@ -26,26 +26,3 @@ do{
 }while(n < 10)
 
 
-        //ForEach - outro laço de repetição
-
-//servem pra interagir num array, ou em objetos
-
-
-var arr = ['guilerme', 'felipe', 'joao'];
-
-
-for ( var i = 0; i < arr.length; i++ ){
-    console.log(arr[i])
-
-}
-
-
-
-arr.forEach(function(value,index){
-console.log(value,index)
-})
-
-
-// Value, valor do array
-// O index é a chave, é aquele número que começa do 0
-//guilherme teria a chave 0, felipe teria a chave 1 e joao teria a chave 2
