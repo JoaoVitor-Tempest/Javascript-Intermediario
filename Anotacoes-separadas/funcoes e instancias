@@ -1,0 +1,14 @@
+        //Funções e instâncias
+
+
+//Como funciona para instanciar, pra criar objetos
+//e começar a interação entre eles
+
+
+function Pessoa(){
+    this.nome = 'Guilherme'; //this.nome é uma váriavel pra o objeto em questão
+}
+
+var pessoa = new Pessoa(); //Essa linha diz que estamos criando um novo ojbeto chamado Pessoa
+
+alert(pessoa.nome);
