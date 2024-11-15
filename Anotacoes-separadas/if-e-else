@@ -1,0 +1,85 @@
+    /* condições, if e o else */ 
+
+//condições é quando queremos fazer alguma verificação no nosso código
+
+var numero = 10;
+var nome = "Yasmim";
+
+//se quisermos verificar se o nome é válido, se é igual a Yasmim
+//usamos o if, que do inglês por português seria o nosso "se"
+//if é o ponto-chave principal pra inicia a verificação
+
+if(nome == "Anna" /*aqui dentro das chaves vai a condição*/){
+    //porque colocamos o ==, porque a gente está fazendo uma verificação
+    // e não atribuindo algum valor
+
+console.log('verdadeiro');
+} else if(nome == "Yasmim"){
+    console.log('entramos no else if') // else if seignifica senão se, 
+       
+}else{
+    console.log("entramos no else")
+}       
+
+//tem que respeitar maiusculas e minusculas, Case-sensitive significa que caracteres em caixa alta e em caixa baixa são tratados de modo diferente
+
+//por que ==? porque estamos fazendo uma verificação, e não atribuindo
+//algum vamor
+
+//else if, se não entrou no primeiro se/if, continua verificando quantas vezes necessárias
+//até entrar na condição que é verdadeira
+
+
+    //else
+
+//se nada for verdade no if ou tanto no else if, ter algum lugar
+//pra pegar o que que é o caso contrário
+
+// o else não precisa de um if else pra existir
+//se quisermos deixar so o else, podemos
+
+
+    //comparar números
+
+var numero = 10;
+var nome = 'Vitor'
+
+//>= maior ou igual
+//>  maior
+//<= menor oi igual
+//<  menor
+
+if(numero >= 10){
+    console.log('o numero é menor ou igual a 10')
+}
+
+//se colocarmos maior(>) ou menor(<) que o valor 10 que é o atributo
+//da variavel, não iria funcina pois o valos é 10
+//se fosse outro numero, daria certo
+
+    //diferente
+
+    var numero = 10;
+    var nome = 'Vitor';
+    
+if(nome == 'felipe'){
+    console.log('entrou aqui');
+}
+
+//também existe o diferente -- != -- que é o contrario do igual -- == --
+
+    //mais de uma verificação no if
+
+//&&
+//||
+
+if(numero != 10 || nome == "Vitor"){
+    console.log('dudu');
+}
+
+ /* 
+    o && tem que fazer todas as verificações passsamrem
+    enquanto o || uma já é suficiente
+    se uma for verdadeira dentre as
+    variaveis, vai entrar no bloco
+*/
