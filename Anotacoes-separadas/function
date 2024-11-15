@@ -1,0 +1,84 @@
+    //Funções
+
+//são trechos de código que conseguimos
+//chama-los a qualquer momento
+
+                //Modelo
+    //"Funtion" >> (nome da função)
+    // Entre chaves colocamos o código até
+    //até a função ser chamada
+
+    //para chamara a função colocamos assim:
+            //Modelo
+    //nome da função >> ();
+
+ 
+function testes(){
+    //executado quando chamar a função
+    //o cídigo não será exexucato de imediato
+    //ele vai ficar esperando até ser chamado
+    console.log('chamando a função testes');
+}
+
+testes();
+
+//nas funnções existem parametros que podemos definir
+
+function nomes (nome,idade){
+    console.log('o nome é '+nome)
+    console.log('A idade é '+idade)
+}
+
+nomes('Guilherme',16)
+nomes ('João',17)
+
+// chamamos a função nomes e depopis definimos o nome
+//colocando no parametro +nome
+//e chamando a função colocando o nome no chamamento
+//da função
+
+function pegarNome(){
+    return "Juaum" //função return 
+                   // e assim que a funçar retornar alguma
+                   //coisa, a função é terminada 
+ console.log("Testi");
+}
+
+var  nomejo = pegarNome();
+
+console.log(nomejo);
+
+
+function pegarNome(parametro){
+    if(parametro == 1){
+        return "Juaum"
+    } else {
+        return "outro nome";
+    }
+
+
+}
+
+var nome = pegarNome(1);
+console.log(nome);
+
+
+
+        //formas de declarar funções usando variaveis
+
+
+var func = function(){
+console.log('Função-variavel')
+}
+func();
+
+
+        //declarar função e chama-la logo em seguida
+
+(function(){
+    console.log('oi, mundoooooooooo')
+})();
+ //se coloca a função dentro de 
+ //e depois chama a função
+
+
