@@ -1,0 +1,21 @@
+    //Funções em orientação a objetos
+
+
+
+
+
+function Pessoa (){
+    this.nome = "Joao";
+    this.idade = 19;
+    this.printNome = function(numero){
+        alert(numero);
+    }
+}
+
+
+var pessoa = new Pessoa();
+var pessoa_2 = new Pessoa();
+
+pessoa_2.nome = "giih";
+
+pessoa.printNome(pessoa_2.nome);
