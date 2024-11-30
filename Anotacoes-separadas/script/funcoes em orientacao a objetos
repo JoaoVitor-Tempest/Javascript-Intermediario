@@ -1,9 +1,5 @@
     //Funções em orientação a objetos
 
-
-
-
-
 function Pessoa (){
     this.nome = "Joao";
     this.idade = 19;
